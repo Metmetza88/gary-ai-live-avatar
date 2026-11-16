@@ -44,11 +44,11 @@ Evolink 的 Key 同样放到 `~/.deepsea/evolink/api.key`。YouTube 推流码放
 ## 安装
 
 ```bash
-git clone https://github.com/garycaogan/ai-live-avatar.git
+git clone https://github.com/garycaogan/gary-ai-live-avatar.git
 ```
 
 ```bash
-cd ai-live-avatar && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+cd gary-ai-live-avatar && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
 舞台页用到阿里云 RTC 的网页 SDK，版权属于阿里云，这里不重新分发，用脚本从官方 CDN 下载并校验：
